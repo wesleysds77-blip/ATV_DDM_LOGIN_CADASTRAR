@@ -8,12 +8,7 @@ export default function App() {
 
       <Image
       source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1gOYhj_HmxIQj42Xkn0acnB5mGVaGU9zZzOa7EgkZTg&s=10"}}
-      style={{
-        width: 160,
-        height: 160,
-        borderWidth: 2,
-        margin: 20
-      }}
+      style={styles.imagem}
       />
 
       <TextInput
@@ -75,5 +70,10 @@ const styles = StyleSheet.create({
     margin: 10,
     gap: 10,
   },
-
+  imagem: {
+        width: 160,
+        height: 160,
+        borderWidth: 2,
+        margin: 20
+  },
 });
